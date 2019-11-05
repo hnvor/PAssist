@@ -94,7 +94,7 @@ public class AtributeActivity extends AppCompatActivity implements SeekBar.OnSee
             String ratingColor = getIntent().getStringExtra("rating_color");
 
             atributeName = (TextView) findViewById(R.id.atr_name);
-            atributeRatingz = (TextView) findViewById(R.id.atr_rati);
+            atributeRating = (TextView) findViewById(R.id.atr_rati);
             worseAtribute = (TextView) findViewById(R.id.worse_atr);
             seekBarValue = (TextView) findViewById(R.id.seekBarValue);
             justTextView = (TextView) findViewById(R.id.just_text_view);
