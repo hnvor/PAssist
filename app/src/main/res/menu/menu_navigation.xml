@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Главная"
+            android:icon="@drawable/ic_home"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/trash"
+            android:title="Добавить вопрос"
+            android:icon="@drawable/ic_plus"/>
+        <item
+            android:id="@+id/tasks"
+            android:title="Задачи"
+            android:icon="@drawable/tasks"/>
+        <item
+            android:id="@+id/character"
+            android:title="Профиль"
+            android:icon="@drawable/character_menu"/>
+        <item
+            android:id="@+id/settings"
+            android:title="Настройки"
+            android:icon="@drawable/ic_setting"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Выход"
+            android:icon="@drawable/ic_exit"/>
+    </group>
+</menu>

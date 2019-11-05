@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context="com.example.wilshere.voicerecognitionactivity.VoiceRecognitionActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+
+            android:id="@+id/activity_voice_recognition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+
+            tools:context="com.example.wilshere.voicerecognitionactivity.VoiceRecognitionActivity">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/usay"
+                android:id="@+id/AssistantLayout"
+                android:background="#6A105F"
+
+                >
+                <TextView
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/isay"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:maxLines="5"
+                    android:gravity="center"
+                    android:ellipsize="end"
+                    android:text=""
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/assistant"
+                    android:id="@+id/imageView"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:paddingBottom="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_above="@+id/isay"
+                    />
+
+            </RelativeLayout>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="8dp"
+                app:srcCompat="@drawable/sendbutton"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/imageButton3"
+                android:layout_alignTop="@+id/TextField"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_above="@+id/imageButton" />
+
+
+            <EditText
+                android:id="@+id/TextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/imageButton3"
+                android:hint="Введи текст..."
+                android:textCursorDrawable="@null"
+                android:textColor="#6A105F"
+                android:textColorHint="#6A105F"
+                android:maxLines="1"
+                android:focusable="false"
+                android:layout_above="@+id/imageButton"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+            </EditText>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/TextField"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="#ffffff"
+                >
+
+
+                <ImageButton
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/right_menu_fiolet"
+                    android:id="@+id/menuButton"
+                    android:background="?attr/selectableItemBackground"
+                    android:layout_width="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/drawer_options_fiolet"
+                    android:id="@+id/drawerButton"
+                    android:background="?attr/selectableItemBackground"
+                    android:layout_width="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:scaleType="fitCenter"/>
+
+            </RelativeLayout>
+            <TextView
+                android:text=""
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextField"
+                android:paddingLeft="16dp"
+                android:id="@+id/CurrentAction1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="3dp"
+                android:textSize="18sp" />
+            <TextView
+                android:text=""
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextField"
+                android:id="@+id/CurrentAction2"
+                android:layout_toRightOf="@+id/CurrentAction1"
+                android:layout_marginBottom="3dp"
+                android:textColor="#32CD32"
+                android:textSize="18sp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_delete"
+                android:background="?attr/selectableItemBackground"
+                android:id="@+id/imageButton2"
+                android:visibility="invisible"
+                android:layout_above="@+id/TextField"
+                android:layout_toRightOf="@+id/CurrentAction2"
+                />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/usay"
+                android:textColor="#6A105F"
+                android:textSize="20sp"
+                android:layout_above="@+id/CurrentAction1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:maxLines="3"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:text="" />
+
+            <ImageButton
+                android:onClick="speak"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/unnamed"
+                android:id="@+id/imageButton"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackground"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu_navigation"/>
+
+</android.support.v4.widget.DrawerLayout>
+

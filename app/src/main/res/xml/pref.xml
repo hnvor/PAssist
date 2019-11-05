@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Цвет интерфейса">
+        <CheckBoxPreference
+            android:title="Фиолетовый"
+            android:defaultValue="true"
+            android:key="color1"
+            android:icon="@drawable/fioletoviy" />
+        <CheckBoxPreference
+            android:key="color2"
+            android:icon="@drawable/biruza"
+            android:title="Бирюзовый"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:title="Серый"
+            android:defaultValue="false"
+            android:key="color3"
+            android:icon="@drawable/seriy" />
+        <CheckBoxPreference
+            android:title="Оранжевый"
+            android:defaultValue="false"
+            android:key="color4"
+            android:icon="@drawable/or" />
+        <CheckBoxPreference
+            android:key="color5"
+            android:title="Зелёный"
+            android:icon="@drawable/gr"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="color6"
+            android:title="Коричневый"
+            android:icon="@drawable/br"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Микрофон">
+        <CheckBoxPreference
+            android:key="micro2"
+            android:icon="@drawable/unnamed"
+            android:title="Фиолетовый"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:title="Голубой"
+            android:defaultValue="false"
+            android:key="micro1"
+            android:icon="@drawable/micro"
+            />
+        <CheckBoxPreference
+            android:key="micro3"
+            android:icon="@drawable/zen_favicon"
+            android:title="Серый"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="micro4"
+            android:icon="@drawable/assist"
+            android:title="Тёмно-синий"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="micro5"
+            android:icon="@drawable/green_micro"
+            android:title="Зелёный"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="micro6"
+            android:icon="@drawable/microphone"
+            android:title="Красный"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="micro7"
+            android:icon="@drawable/jarvis"
+            android:title="Jarvis"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="micro8"
+            android:icon="@drawable/blue"
+            android:title="Лазурно-серый"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="micro9"
+            android:icon="@drawable/gray_micro"
+            android:title="Серебристый"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Ассистент">
+        <CheckBoxPreference
+            android:key="assist1"
+            android:icon="@drawable/assistant"
+            android:title="Стандартный"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="assist2"
+            android:icon="@drawable/mabel_assist_icon"
+            android:title="Мэйбл"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="assist3"
+            android:icon="@drawable/masha_icon"
+            android:title="Маша"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="assist4"
+            android:icon="@drawable/lisa_icon"
+            android:title="Лиза Симпсон"
+            android:defaultValue="false" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menugroup1" >
+        <item
+            android:id="@+id/menu1"
+            android:title="Коммуникации"
+            >
+            <menu>
+                <item
+                    android:id="@+id/com1"
+                    android:title="Набери маму"
+                    />
+                <item
+                    android:id="@+id/com2"
+                    android:title="Позвони Вове"/>
+                <item
+                    android:id="@+id/com3"
+                    android:title="Набери 0502044384"/>
+            </menu>
+
+        </item>
+        <item
+            android:id="@+id/menu2"
+            android:title="Погода">
+            <menu>
+                <item
+                    android:id="@+id/pog1"
+                    android:title="Погода на завтра"/>
+                <item
+                    android:id="@+id/pog2"
+                    android:title="Погода в субботу в Париже"/>
+                <item
+                    android:id="@+id/pog3"
+                    android:title="Покажи погоду на выходные"/>
+                <item
+                    android:id="@+id/pog4"
+                    android:title="Будет ли завтра дождь?"/>
+                <item
+                    android:id="@+id/pog5"
+                    android:title="Прогноз погоды на сегодня"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu3"
+            android:title="Запуск приложений">
+            <menu>
+                <item
+                    android:id="@+id/zap1"
+                    android:title="Запусти калькулятор"/>
+                <item
+                    android:id="@+id/zap2"
+                    android:title="Открой вк"/>
+                <item
+                    android:id="@+id/zap3"
+                    android:title="Запусти Play Market"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu6"
+            android:title="Навигация">
+            <menu>
+                <item
+                    android:id="@+id/nav1"
+                    android:title="Как проехать до улицы Пушкина 101"/>
+                <item
+                    android:id="@+id/nav2"
+                    android:title="Поехали в Крым"/>
+                <item
+                    android:id="@+id/nav3"
+                    android:title="Проложи маршрут до Харькова"/>
+                <item
+                    android:id="@+id/nav4"
+                    android:title="Покажи ближайшие супермаркеты"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu4"
+            android:title="Напоминания">
+            <menu>
+                <item
+                    android:id="@+id/nap1"
+                    android:title="Напомни через час покормить собаку"/>
+                <item
+                    android:id="@+id/nap2"
+                    android:title="Разбуди завтра в 8"/>
+                <item
+                    android:id="@+id/nap3"
+                    android:title="Поставь будильник на четверг в 18:00"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu7"
+            android:title="Информация">
+            <menu>
+                <item
+                    android:id="@+id/info1"
+                    android:title="Кто такой Тарас Шевченко"/>
+                <item
+                    android:id="@+id/info2"
+                    android:title="Найди фото Лондона"/>
+                <item
+                    android:id="@+id/info3"
+                    android:title="Поищи как готовить Буррито"/>
+                <item
+                    android:id="@+id/info4"
+                    android:title="Расскажи про фильм Хатико"/>
+                <item
+                    android:id="@+id/info5"
+                    android:title="Расскажи что за кино Интерстеллар"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/menu5"
+            android:title="Развлечения">
+            <menu>
+                <item
+                    android:id="@+id/raz1"
+                    android:title="Давай поиграем в города"/>
+                <item
+                    android:id="@+id/raz2"
+                    android:title="Расскажи анекдот"/>
+                <item
+                    android:id="@+id/raz3"
+                    android:title="Дай мне совет"/>
+                <item
+                    android:id="@+id/raz4"
+                    android:title="Загадай загадку"/>
+                <item
+                    android:id="@+id/raz5"
+                    android:title="Камень, ножницы, бумага"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

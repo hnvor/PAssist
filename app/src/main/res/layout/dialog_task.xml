@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+<LinearLayout
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#232323"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_name_id"
+        android:text="Task name"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="90dp"></TextView>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/dialog_time_id"
+        android:text="Time and date"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dialog_btn_edit"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:text="Редактировать"
+        android:layout_marginTop="10dp"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_btn_cancel"
+        android:background="@color/white"
+        android:padding="20dp"
+        android:text="Отменить"></Button>
+
+</LinearLayout>
+
+<ImageView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/trash_but"
+    android:id="@+id/dialog_img"
+    android:padding="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"></ImageView>
+
+
+
+</RelativeLayout>

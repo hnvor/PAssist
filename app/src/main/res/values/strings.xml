@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">PAssist</string>
+    <string name="btSpeak">Распознать речь</string>
+    <string name="tvTextMatches">Список вариантов</string>
+    <string name="sNoOfMatches">No Of Matches</string>
+    <string name="etSearchHint">Speech Hint here</string>
+    <string name="saNoOfMatches">NoOfMatches</string>
+    <string name="title_activity_just">JustActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>FootBall</item>
+        <item>Basket Ball</item>
+        <item>Table Tennis</item>
+        <item>Chess</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item><item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item><item>Hockey</item>
+        <item>Hockey</item>
+        <item>Hockey</item>
+
+
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>
